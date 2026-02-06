@@ -3,7 +3,7 @@
 ## Project Overview
 An automated verification engine built to validate organizational digital assets against federal non-profit filing standards. This tool was developed to streamline administrative workflows for Laty's Foundation by bridging technical automation with regulatory oversight.
 
-![Audit Tool Dashboard](capture.png)
+![Audit Tool Dashboard](capture.PNG)
 
 ## Core Features
 * Regex-Based Filename Auditing: Automated scanning for mandatory compliance strings including Tax IDs and Fiscal Years.
