@@ -1,0 +1,32 @@
+{
+    "compliance_rules": [
+        {
+            "id": "RULE-001",
+            "name": "Tax ID Inclusion",
+            "regex": "\\d{9}",
+            "description": "Filenames must contain the 9-digit Federal Tax ID (EIN).",
+            "mandatory": true
+        },
+        {
+            "id": "RULE-002",
+            "name": "Fiscal Year Format",
+            "regex": "FY20[2-3][0-9]",
+            "description": "Filenames must specify the Fiscal Year (e.g., FY2024).",
+            "mandatory": true
+        },
+        {
+            "id": "RULE-003",
+            "name": "Non-Profit Status Declaration",
+            "regex": "(501c3|NPO|CHARITY)",
+            "description": "Files must be tagged with a valid non-profit status identifier.",
+            "mandatory": false
+        },
+        {
+            "id": "RULE-004",
+            "name": "Confidentiality Level",
+            "regex": "(CONFIDENTIAL|PUBLIC|INTERNAL)",
+            "description": "Data classification must be explicitly stated in the filename.",
+            "mandatory": true
+        }
+    ]
+}
